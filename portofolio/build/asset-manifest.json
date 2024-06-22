@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/swetha22p/Swetha-portofolioe/static/css/main.7b076f27.css",
+    "main.js": "/swetha22p/Swetha-portofolioe/static/js/main.e13f095f.js",
+    "static/js/453.7a062e10.chunk.js": "/swetha22p/Swetha-portofolioe/static/js/453.7a062e10.chunk.js",
+    "static/media/logo1.JPG": "/swetha22p/Swetha-portofolioe/static/media/logo1.45e08a74296455b7ba60.JPG",
+    "static/media/li.png": "/swetha22p/Swetha-portofolioe/static/media/li.fdee9515e1464d952b79.png",
+    "static/media/hackathon.png": "/swetha22p/Swetha-portofolioe/static/media/hackathon.ddfb7d59aadf872bc5ba.png",
+    "static/media/gcc.png": "/swetha22p/Swetha-portofolioe/static/media/gcc.cbabc1ec18bcf5eb8a78.png",
+    "static/media/resume.png": "/swetha22p/Swetha-portofolioe/static/media/resume.96b8d7d7e10400f03070.png",
+    "static/media/wd.png": "/swetha22p/Swetha-portofolioe/static/media/wd.9dcfc7c732581523e705.png",
+    "static/media/phcp.png": "/swetha22p/Swetha-portofolioe/static/media/phcp.11a0b46c728b8ba2e0c0.png",
+    "static/media/home.avif": "/swetha22p/Swetha-portofolioe/static/media/home.2cc6abe97ceaede7d671.avif",
+    "static/media/cb.png": "/swetha22p/Swetha-portofolioe/static/media/cb.829ec7bdf884a5b768cc.png",
+    "index.html": "/swetha22p/Swetha-portofolioe/index.html",
+    "main.7b076f27.css.map": "/swetha22p/Swetha-portofolioe/static/css/main.7b076f27.css.map",
+    "main.e13f095f.js.map": "/swetha22p/Swetha-portofolioe/static/js/main.e13f095f.js.map",
+    "453.7a062e10.chunk.js.map": "/swetha22p/Swetha-portofolioe/static/js/453.7a062e10.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b076f27.css",
+    "static/js/main.e13f095f.js"
+  ]
+}

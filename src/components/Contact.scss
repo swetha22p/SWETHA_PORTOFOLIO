@@ -1,0 +1,20 @@
+.contact{
+ background-color: black;
+ background-size: cover;
+//  padding: 150px,0;
+}
+.hd{
+
+    background: linear-gradient(45deg, #8d407c, #f703ba);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 3rem; /* Adjust font size as needed */
+    margin-left: 0; /* Center the title */
+    animation: fade-in-left 1s ease-in-out;
+    display: block;
+    margin-bottom: 20px; /* Add some space below */
+    text-align: center;
+    font-family: cursive;
+   
+}

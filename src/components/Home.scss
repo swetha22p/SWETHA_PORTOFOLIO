@@ -1,0 +1,105 @@
+/* Base styles for the home element */
+.home {
+  background-color: black;
+  color: #f1f0f3;
+  font-family: 'Arial', sans-serif;
+  padding: 20vh 0; /* Adjust padding using vh units */
+  min-height: 100vh; /* Ensure the .home element covers at least the viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content vertically */
+}
+
+/* Ensure all content inside .home is centered */
+.home > * {
+  max-width: 100%; /* Ensure content doesn't overflow on smaller screens */
+}
+
+/* Styles for the homepage title */
+.homepage-title {
+  font-weight: 700;
+  color: #6f42c1;
+  padding: 16px;
+  border-radius: 8px;
+  font-size: 4rem; /* Responsive font size using rem units */
+}
+
+.homepage-title span {
+  background: linear-gradient(45deg, #29B6F6, #283593);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  font-size: 5rem;
+  margin-right: 30px;
+  animation: fade-in-left 1s ease-in-out;
+}
+
+/* Styles for the homepage description */
+.homepage-description {
+  font-family: 'Arial', sans-serif;
+  font-size: 2rem; /* Responsive font size using rem units */
+  font-weight: 400;
+  line-height: 1.5;
+  color: #f5f3f7;
+  letter-spacing: 1.7px;
+  text-align: left;
+  text-transform: none;
+  text-decoration: none;
+  margin: 20px; /* Add margin to separate from other content */
+}
+
+/* Styles for the homepage button */
+.homepage-button {
+  margin-top: 20px; /* Add margin above the button */
+}
+
+/* Styles for the "new" class */
+.new {
+  text-align: left;
+  font-family: 'cursive', sans-serif;
+  color: #f1f0f3;
+  font-size: 1.5em; /* Responsive font size using em units */
+  // margin: 20px; /* Add margin to separate from other content */
+}
+
+/* Styles for the image */
+.Image {
+  max-width: 100%; /* Ensure the image doesn't exceed its container */
+  margin-top: 20px; /* Add margin above the image */
+  transition: transform 1.3s ease;
+}
+
+.Image:hover {
+  transform: scale(1.2);
+}
+
+/* Define keyframes for fade-in-left animation */
+@keyframes fade-in-left {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Media query for mobile screens */
+@media screen and (max-width: 768px) {
+  .home {
+    padding: 10vh 0; /* Adjusted padding */
+  }
+
+  .homepage-title {
+    font-size: 3rem; /* Adjusted font size */
+  }
+
+  .homepage-description {
+    font-size: 1.5rem; /* Adjusted font size */
+  }
+
+  .new {
+    font-size: 1.2em; /* Adjusted font size */
+  }
+}
